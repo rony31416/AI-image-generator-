@@ -11,5 +11,14 @@ body {
   padding: 0;
 }
 
+.dropdown {
+  @apply p-3 border rounded-lg text-lg font-medium outline-none transition-all;
+}
 
+.light-dropdown {
+  @apply bg-white text-black border-gray-300 focus:ring-2 focus:ring-blue-400;
+}
 
+.dark-dropdown {
+  @apply bg-gray-900 text-white border-gray-600 focus:ring-2 focus:ring-purple-500;
+}
